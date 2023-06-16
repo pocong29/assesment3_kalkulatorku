@@ -1,0 +1,45 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/hitungFragment">
+    <fragment
+        android:id="@+id/hitungFragment"
+        android:name="com.d3if4063.assesment3_kalkulatorku.ui.hitung.HitungFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_hitung">
+        <action
+            android:id="@+id/action_hitungFragment_to_hasilFragment"
+            app:destination="@id/hasilFragment" />
+        <action
+            android:id="@+id/action_hitungFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_hitungFragment_to_historiFragment"
+            app:destination="@id/historiFragment" />
+        <action
+            android:id="@+id/action_hitungFragment_to_konversiFragment"
+            app:destination="@id/konversiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hasilFragment"
+        android:name="com.d3if4063.assesment3_kalkulatorku.ui.HasilFragment"
+        android:label="HasilFragment"
+        tools:layout="@layout/fragment_hasil"/>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.d3if4063.assesment3_kalkulatorku.ui.AboutFragment"
+        android:label="AboutFragment"
+        tools:layout="@layout/fragment_about"/>
+    <fragment
+        android:id="@+id/historiFragment"
+        android:name="com.d3if4063.assesment3_kalkulatorku.ui.histori.HistoriFragment"
+        android:label="@string/histori"
+        tools:layout="@layout/fragment_histori"
+        />
+    <fragment
+        android:id="@+id/konversiFragment"
+        android:name="com.d3if4063.assesment3_kalkulatorku.ui.konversi.GaleriFragment"
+        android:label="KonversiFragment"
+        tools:layout="@layout/fragment_konversi"/>
+</navigation>

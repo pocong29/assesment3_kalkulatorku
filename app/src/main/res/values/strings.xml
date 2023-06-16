@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Assesment3_kalkulatorku</string>
+    <string name="kalkulatorVolume">Kalkulator Volume Bangun Ruang</string>
+    <string name="kalkulatorIntro">"Kalkulator bangun ruang ini digunakan untuk menghitung
+        setiap bangun ruang yang berbeda-beda sehingga setiap bangun ruang yang berbeda bisa
+        dihitung secara otomatis. Berikut input ukuran yang ingin dihitung : "</string>
+    <string name="panjangBangun">Panjang</string>
+    <string name="lebarBangun">Lebar</string>
+    <string name="tinggiBangun">Tinggi</string>
+    <string name="jenisBangun">Jenis Bangun Ruang : </string>
+    <string name="hitung">Hitung Luas</string>
+    <string name="persegi_panjang">Persegi Panjang</string>
+    <string name="balok">Balok</string>
+    <string name="kubik">Kubik</string>
+    <string name="luas_bangun">Luas Bangun : %1$.2f</string>
+    <string name="panjang_invalid">Panjang Belum Diisi</string>
+    <string name="lebar_invalid">Lebar belum diisi</string>
+    <string name="tinggi_invalid">Tinggi belum diisi</string>
+    <string name="jenisBangun_invalid">Jenis Ruang Belum Dipilih</string>
+    <string name="Hitung_Persegi">Persegi</string>
+    <string name="Hitung_Kubik">Kubik</string>
+    <string name="Hitung_Balok">Balok</string>
+
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="copyright">Kalkulatorku adalah aplikasi yang bertujuan untuk menghitung luas dari beberapa jenis bangun ruang
+        seperti kubik, balok dan persegi panjang.\nCopyright © 2023 Naufal fajar pratama.\nAll rights reserved.</string>
+    <string name="hasil_hitung">Lihat Hasil Perhitungan</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="bagikan_template">Panjang Ruang: %1$s cm\nTiggi Ruang: %2$s
+cm\nLebar Ruang:%3$s\nJenis Ruang: %4$s\n\n%5$s\n%6$s</string>
+
+    <string name="belum_ada_data">Belum ada data</string>
+    <string name="histori">Histori</string>
+
+    <string name="hasil_x">Kalkulator: %1$.2f - %2$s</string>
+    <string name="data_x">BB: %1$.1f - TB: %2$.1f - %3$s</string>
+    <string name="hapus_histori">Hapus Histori</string>
+
+    <string name="konfirmasi_hapus">Hapus semua histori ?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+    <string name="buttonData">Galeri</string>
+    <string name="inputanUang">Input Mata Uang</string>
+    <string name="hasilKonversi">Dollar</string>
+    <string name="dollar">"Dollar "</string>
+
+    <string name="message">%1$s diklik!</string>
+    <string name="koneksi_error">koneksi error</string>
+
+    <string name="channel_name">Updater</string>
+    <string name="channel_desc">Data hewan diupdate otomatis</string>
+
+    <string name="notif_judul">Hewan Baru telah ditambahkan</string>
+    <string name="notif_isi">Jangan lupa cek yah..</string>
+
+</resources>
